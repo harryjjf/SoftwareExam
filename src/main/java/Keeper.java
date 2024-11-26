@@ -2,10 +2,7 @@ import java.awt.*;
 
 public class Keeper extends Draw{
 
-
     private String phoneNumber;
-
-
 
     public Keeper(String name, String phoneNumber, int tagID) {
         super(name, tagID);

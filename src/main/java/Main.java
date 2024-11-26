@@ -1,8 +1,7 @@
 import javax.swing.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-import java.util.ArrayList;
-import java.util.List;
+
 
 public class Main {
 
@@ -23,7 +22,6 @@ public class Main {
         JFrame frame = new JFrame();
         frame.setSize(600, 600);
         frame.add(drawing);
-
         frame.setVisible(true);
         frame.addWindowListener(new WindowAdapter() {
             public void windowClosing(WindowEvent e) {

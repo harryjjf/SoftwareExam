@@ -5,6 +5,7 @@ import java.util.List;
 public class mapDraw extends Canvas {
 
     LocationSystem locationSystem = new LocationSystem();
+    checkDistance checkDistance = new checkDistance();
 
     public mapDraw() {
         setSize(600, 600);
@@ -54,14 +55,13 @@ public class mapDraw extends Canvas {
     }
 
     public void refresh(){
-
         while(true){
-
             repaint();
             try{Thread.sleep(100);}catch(Exception e){}
         }
-
     }
+
+
 
 
 
